@@ -1,0 +1,57 @@
+h1 {
+    margin-top: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 600%;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 200%;
+}
+
+a{
+    color:goldenrod
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-size: 125%;
+    width:99%;
+    position:fixed;
+    background-color: aquamarine;
+}
+
+.skydiving-header {
+    background-image: url('../assets/img/skydive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    flex: auto;
+    height: 500px;
+    padding-top: 75px;
+    color: aliceblue;
+}
+
+.body {
+    color: aliceblue;
+    font-size: 150%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.tableau {
+    display: flex; 
+    flex-flow: column;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 175%;
+}

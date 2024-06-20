@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--From Scratch Page-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Skydiving</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="css/skydiving.css">
+    </head>
+    <header></header>
+    <body style="margin: 0%; background-color: darkslategray;">
+        <div width="100%" class="menu">
+            <div style="color: gray; padding-left: 25px; width: 100%;">On Page Shortcuts:
+                <a style="padding-right: 30px; padding-left: 10px;" href="#info">Info</a>
+                <a style="padding-right: 30px;" href="#vid">Company Video</a>
+                <a href="#tableau">Bonus Tableau Chart</a>
+            </div>
+            <a style="width: 125px;" href="index.html">Home</a>
+            <a style="width: 125px" href="resume.html">Resume</a>
+            <a href="Tableau.html">Tableau</a>
+        </div>
+        <div class="skydiving-header">
+            <h1>The Thrill of Skydiving</h1>
+            <h2>A rush from 13000 feet in the air</h2>
+        </div>
+
+        <div id="info" class="body">
+            <p>Earlier this semester, my friend invited me to go skydiving near Grantsville, UT. It was a blast! Here are some things to note:</p>
+            <ol>
+                <li>The jump occurred at an altitude of 13000 feet</li>
+                <li>An instructor guided my friend and I through the process beforehand</li>
+                <li>I was terrified because:</li>
+                    <ul>
+                        <li>I have a fear of heights</li>
+                        <li>And I'm usually risk averse</li>
+                    </ul>
+                <li>I survived</li>
+            </ol>
+            <img width="100%" src="assets/img/midair.jpg">
+            <br><br>
+            <p id="vid">Here is a video from the skydiving company:</p>
+            <iframe width="1440" height="720" src="https://www.youtube.com/embed/65-ssqEDzS0" style="margin-left: 2%; margin-right: 2%;"></iframe>
+            <br>
+        </div>
+
+        <div id="tableau" class="tableau">
+            <br>
+            <p>Climbing to greater heights, here are some charts about exploration to Mars as a bonus</p>
+            <br>
+            <div class='tableauPlaceholder' id='viz1718817713591' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Missions to Mars ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;MissionstoMars&#47;MissionstoMars&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='MissionstoMars&#47;MissionstoMars' />
+                    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mi&#47;MissionstoMars&#47;MissionstoMars&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+                    <param name='language' value='en-US' /></object></div>                
+                    <script type='text/javascript'>                    
+                        var divElement = document.getElementById('viz1718817713591');                    
+                        var vizElement = divElement.getElementsByTagName('object')[0];                   
+                        vizElement.style.width='1366px';vizElement.style.height='2027px';                    
+                        var scriptElement = document.createElement('script');                    
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                    </script>
+                </object>
+            </div>
+        </div>
+    </body>
+</html>
